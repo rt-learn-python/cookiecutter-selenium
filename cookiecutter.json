@@ -1,0 +1,5 @@
+{
+    "project_name": "Capitalized project name with spaces e.g. \"Foo Bar\". Max 14 characters.",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "A short description to add to Github"
+}
